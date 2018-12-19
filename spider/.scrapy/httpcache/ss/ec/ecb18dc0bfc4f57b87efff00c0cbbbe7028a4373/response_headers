@@ -1,0 +1,25 @@
+Date: Wed, 18 Apr 2018 01:59:56 GMT
+Content-Type: text/html; charset=UTF-8
+Server: mw1255.eqiad.wmnet
+X-Powered-By: HHVM/3.18.6-dev
+Link: </static/images/project-logos/enwiki.png>;rel=preload;as=image;media=not all and (min-resolution: 1.5dppx),</static/images/project-logos/enwiki-1.5x.png>;rel=preload;as=image;media=(min-resolution: 1.5dppx) and (max-resolution: 1.999999dppx),</static/images/project-logos/enwiki-2x.png>;rel=preload;as=image;media=(min-resolution: 2dppx)
+Vary: Accept-Encoding,Cookie,Authorization
+X-Ua-Compatible: IE=Edge
+Content-Language: en
+P3P: CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 10 Apr 2018 17:58:49 GMT
+Backend-Timing: D=77431 t=1523847618460911
+Content-Encoding: gzip
+X-Varnish: 415272871 7017237, 29667151 821831190, 542938340 478592111, 406201288 982162353
+Via: 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1)
+Age: 169175
+X-Cache: cp1053 hit/2, cp2001 hit/3, cp5012 hit/2, cp5008 hit/6
+X-Cache-Status: hit-front
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Set-Cookie: WMF-Last-Access=18-Apr-2018;Path=/;HttpOnly;secure;Expires=Sun, 20 May 2018 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=18-Apr-2018;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 20 May 2018 00:00:00 GMT
+X-Analytics: ns=0;page_id=95200;WMF-Last-Access=18-Mar-2018;WMF-Last-Access-Global=18-Mar-2018;https=1
+X-Client-Ip: 129.78.56.192
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Accept-Ranges: bytes

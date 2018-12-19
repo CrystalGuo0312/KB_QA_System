@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Launch &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="/static/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="/static/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="/static/css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="/static/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="/static/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div id="fh5co-logo"><a href="index.html">QA-KB<strong>.</strong></a></div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(/static/images/img_bg_1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Start your Australian University Jouney</h1>
+							<h2>Ask your question </h2>
+
+                            <p>Questions we defined are as follow:</p>
+{#                         <div algin = left>#}
+{#                 <P>  1.Who question:#}
+{#&nbspwho is the chancellor of  XX University?#}
+{#&nbsp who is XXX? (chancellor or vice chancellor)#}
+{#&nbsp&nbsp&nbsp2.where is the XX University ?#}
+{#3.when was the XX University established / founded?#}
+{#&nbsp&nbsp&nbsp4.How many:#}
+{#How many students are there in XX University ?#}
+{#&nbsp How many postgraduates are there in XX University ?#}
+{#&nbsp How many undergraduates are there in XX University?#}
+{#&nbsp How many administrative staff are there in XX University?#}
+{#&nbsp&nbsp&nbsp5.What question:#}
+{#&nbspwhat is the type of XX University?#}
+{#&nbspwhat is the motto of XX University?#}
+{#&nbspwhat is the fomer name of XX University#}
+{# </P>#}
+{#</div>#}
+{#                            <p>1.Who question:#}
+{#                             1.1 who is the chancellor of  XX university?#}
+{#                                1.2 who is XXX? (use chancellor or vice chancellor name to ask this question)</p>#}
+{#                               <p> 2.where is the XX university ?</p>#}
+{#                            <p> 3.when was the XX university established / founded?</p>#}
+{#                            <body>  4.How many#}
+{#                                4.1 How many students are there in XX university ?#}
+{#                                4.2 How many postgraduates are there in XX university ?#}
+{#                                4.3 How many undergraduates are there in XX university?#}
+{#                            4.4 How many administrative staff are there in XX university?</body>#}
+{#                               <article> 5.What question#}
+{#                                5.1what is the type of XX University?#}
+{#                                5.2what is the motto of XX university?#}
+{#                                5.3what is the fomer name of XX university#}
+{#                               </article>#}
+{#							<div class="simply-countdown simply-countdown-one"></div>#}
+							<div class="row">
+{#								<h2>Notify me when it's ready</h2>#}
+								<form class="form-inline" id="fh5co-header-subscribe" action="/question" method="POST">
+									<div class="col-md-12 col-md-offset-0">
+										<div class="form-group">
+
+
+                                                    <input name="text" class="form-control" id="email" placeholder="Type your question">
+                                                    <button type="submit" class="btn btn-primary">Submit</button>
+ <div algin = left>
+
+										</div>
+									</div>
+								</form>
+
+                                      {% if text %}
+                                               {{ question }}
+                                          <br>
+                                          <br>
+                                                {{ text }}
+                                            {% endif %}
+                                     </h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+{#<P>  1.Who question:#}
+{#&nbspwho is the chancellor of  XX University?#}
+{#&nbsp who is XXX? (chancellor or vice chancellor)#}
+{#&nbsp&nbsp&nbsp2.where is the XX University ?#}
+{#3.when was the XX University established / founded?#}
+{#&nbsp&nbsp&nbsp4.How many:#}
+{#How many students are there in XX University ?#}
+{#&nbsp How many postgraduates are there in XX University ?#}
+{#&nbsp How many undergraduates are there in XX University?#}
+{#&nbsp How many administrative staff are there in XX University?#}
+{#&nbsp&nbsp&nbsp5.What question:#}
+{#&nbspwhat is the type of XX University?#}
+{#&nbspwhat is the motto of XX University?#}
+{#&nbspwhat is the fomer name of XX University#}
+{# </P>#}
+</div>
+
+{#								<ul class="fh5co-social-icons">#}
+{#									<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>#}
+{#									<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>#}
+{#									<li><a href="#"><i class="icon-linkedin-with-circle"></i></a></li>#}
+{#									<li><a href="#"><i class="icon-dribbble-with-circle"></i></a></li>#}
+{#								</ul>#}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+          <div algin = left>
+                 <P>  1.Who question:
+&nbspwho is the chancellor of  XX University?
+&nbsp who is XXX? (chancellor or vice chancellor)
+&nbsp&nbsp&nbsp2.where is the XX University ?
+3.when was the XX University established / founded?
+&nbsp&nbsp&nbsp4.How many:
+How many students are there in XX University ?
+&nbsp How many postgraduates are there in XX University ?
+&nbsp How many undergraduates are there in XX University?
+&nbsp How many administrative staff are there in XX University?
+&nbsp&nbsp&nbsp5.What question:
+&nbspwhat is the type of XX University?
+&nbspwhat is the motto of XX University?
+&nbspwhat is the fomer name of XX University
+ </P>
+</div>
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+
+
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="/static/js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="/static/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="/static/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="/static/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="/static/js/jquery.waypoints.min.js"></script>
+
+	<!-- Stellar -->
+	<script src="/static/js/jquery.stellar.min.js"></script>
+
+	<!-- Count Down -->
+	<script src="/static/js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="/static/js/main.js"></script>
+
+	<script>
+    var d = new Date(new Date().getTime() + 800 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+</script>
+
+	</body>
+</html>
+

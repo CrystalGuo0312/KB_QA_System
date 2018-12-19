@@ -1,0 +1,26 @@
+Date: Sun, 18 Mar 2018 03:35:08 GMT
+Content-Type: text/plain; charset=utf-8
+Server: mw1264.eqiad.wmnet
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Vary: X-Subdomain
+X-Powered-By: HHVM/3.18.6-dev
+X-Language: en
+Content-Encoding: gzip
+P3P: CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+X-Site: wikipedia
+X-Article-Id: 19292575
+X-Content-Type-Options: nosniff
+Last-Modified: Thu, 15 Mar 2018 20:37:15 GMT
+Backend-Timing: D=21943 t=1521159220137632
+X-Varnish: 283607967 277661802, 154867823 151908883, 355345969 358484606, 358238696 335528053
+Via: 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1)
+Age: 2076
+X-Cache: cp1065 hit/6, cp2001 hit/1, cp4031 hit/1, cp4028 hit/1596
+X-Cache-Status: hit-front
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Set-Cookie: WMF-Last-Access=18-Mar-2018;Path=/;HttpOnly;secure;Expires=Thu, 19 Apr 2018 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=18-Mar-2018;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu, 19 Apr 2018 00:00:00 GMT
+Set-Cookie: GeoIP=AU:NSW:Greenacre:-33.90:151.05:v4; Path=/; secure; Domain=.wikipedia.org
+X-Analytics: https=1;nocookies=1
+X-Client-Ip: 58.179.12.96
+Accept-Ranges: bytes

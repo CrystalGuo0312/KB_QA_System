@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+
+    <p>For simplify problem, I only deal with 2 kind of question</p>
+    <form action="/echo" method="POST">
+        <input name="text">
+        <input type="submit" value="submit">
+    </form>
+
+    {% if text %}
+        Your answer: {{ text }}
+    {% endif %}
+</body>
+</html>
